@@ -1,6 +1,6 @@
 'use strict';
 
-const swVersion = '3';
+const swVersion = '5';
 
 
 
