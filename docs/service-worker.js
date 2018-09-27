@@ -1,11 +1,11 @@
 'use strict';
 
-const swVersion = '6';
+const swVersion = '8';
 
 
 
 if (typeof BroadcastChannel === 'undefined') {
-	self.importScripts('bundle.js');
+	self.importScripts('swbundle.js');
 }
 
 
