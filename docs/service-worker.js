@@ -12,7 +12,7 @@ channel.onmessage = msg => {
 };
 
 self.addEventListener('install', function (event) {
-	console.log('install event');
+	console.log('install event1');
 });
 
 
