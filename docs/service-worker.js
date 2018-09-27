@@ -1,6 +1,6 @@
 'use strict';
 
-
+const BroadcastChannel = require('broadcast-channel');
 
 
 
