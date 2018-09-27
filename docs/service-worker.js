@@ -5,7 +5,7 @@ const swVersion = '5';
 
 
 if (typeof BroadcastChannel === 'undefined') {
-	self.importScripts('bc.js');
+	self.importScripts('bundle.js');
 }
 
 
