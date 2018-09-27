@@ -1,5 +1,12 @@
 'use strict';
 
+const swVersion = '1';
+
+
+
+if (typeof BroadcastChannel === 'undefined') {
+	self.importScripts('bc.js');
+}
 
 
 const channel = new BroadcastChannel('cachecommand');
@@ -10,7 +17,7 @@ channel.onmessage = msg => {
 };
 
 self.addEventListener('install', function (event) {
-	console.log('install event12');
+	console.log('install event123');
 });
 
 
