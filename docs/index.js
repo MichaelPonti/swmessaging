@@ -1,7 +1,5 @@
 'use strict';
 
-var BroadcastChannel = require('broadcast-channel');
-
 
 const channel = new BroadcastChannel('cachecommand');
 

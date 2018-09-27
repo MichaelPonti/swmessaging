@@ -1,18 +1,16 @@
 'use strict';
 
-const BroadcastChannel = require('broadcast-channel');
-
 
 
 const channel = new BroadcastChannel('cachecommand');
 
 channel.onmessage = msg => {
-	console.log('received channel message');
+	console.log('received channel message2');
 	console.log(msg);
 };
 
 self.addEventListener('install', function (event) {
-	console.log('install event1');
+	console.log('install event12');
 });
 
 
